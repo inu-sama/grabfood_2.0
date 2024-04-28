@@ -13,7 +13,7 @@ export default defineConfig({
         mainContent: "https://subtle-dolphin-e29768.netlify.app/assets/remoteEntry.js",
       },
       exposes: {},
-      shared: ["react", "react-dom"],
+      shared: ["react", "react-dom", "react-router-dom"],
     }),
   ],
   build: {
