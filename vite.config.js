@@ -9,11 +9,10 @@ export default defineConfig({
     federation({
       name: "grabfood_2.0",
       remotes: {
-        headerAndFooter: "http://localhost:5001/assets/remoteEntry.js",
+        headerAndFooter: "https://toptotoe.netlify.app/assets/remoteEntry.js",
         mainContent: "https://subtle-dolphin-e29768.netlify.app/assets/remoteEntry.js",
       },
       exposes: {},
-      shared: ["react", "react-dom"],
     }),
   ],
   build: {
